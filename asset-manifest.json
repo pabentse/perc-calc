@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/perc-calc/static/css/main.1b206179.css",
-    "main.js": "/perc-calc/static/js/main.ab29aefd.js",
-    "static/js/787.45ee4b47.chunk.js": "/perc-calc/static/js/787.45ee4b47.chunk.js",
-    "index.html": "/perc-calc/index.html",
-    "main.1b206179.css.map": "/perc-calc/static/css/main.1b206179.css.map",
-    "main.ab29aefd.js.map": "/perc-calc/static/js/main.ab29aefd.js.map",
-    "787.45ee4b47.chunk.js.map": "/perc-calc/static/js/787.45ee4b47.chunk.js.map"
+    "main.css": "/percentagecalc.eu/static/css/main.1b206179.css",
+    "main.js": "/percentagecalc.eu/static/js/main.f440ca63.js",
+    "static/js/787.45ee4b47.chunk.js": "/percentagecalc.eu/static/js/787.45ee4b47.chunk.js",
+    "index.html": "/percentagecalc.eu/index.html",
+    "main.1b206179.css.map": "/percentagecalc.eu/static/css/main.1b206179.css.map",
+    "main.f440ca63.js.map": "/percentagecalc.eu/static/js/main.f440ca63.js.map",
+    "787.45ee4b47.chunk.js.map": "/percentagecalc.eu/static/js/787.45ee4b47.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1b206179.css",
-    "static/js/main.ab29aefd.js"
+    "static/js/main.f440ca63.js"
   ]
 }
