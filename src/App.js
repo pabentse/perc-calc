@@ -50,12 +50,12 @@ function App() {
         <div className="results" style={{color: 'blue'}}>{output1}</div>
       </div>
       <div className="form">
-        <input type="number" className="calculator-input" value={input3} onChange={e => setInput3(e.target.value)} /> is what percentage of 
+        <input type="number" className="calculator-input" value={input3} onChange={e => setInput3(e.target.value)} /> is what % of 
         <input type="number" className="calculator-input" value={input4} onChange={e => setInput4(e.target.value)} />?
         <div className="results" style={{color: 'blue'}}>{output2}</div>
       </div>
       <div className="form">
-        What is the percentage increase/decrease from 
+        What is the % increase/decrease from 
         <input type="number" className="calculator-input" value={input5} onChange={e => setInput5(e.target.value)} /> to 
         <input type="number" className="calculator-input" value={input6} onChange={e => setInput6(e.target.value)} />?
         <div className="results" style={{color: 'blue'}}>{output3}</div>
