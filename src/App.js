@@ -45,23 +45,23 @@ function App() {
     <main className="calculator">
       <div className="form">
         What is 
-        <input className="calculator-input" value={input1} onChange={e => setInput1(e.target.value)} /> % of 
-        <input className="calculator-input" value={input2} onChange={e => setInput2(e.target.value)} />?
+        <input type="number" className="calculator-input" value={input1} onChange={e => setInput1(e.target.value)} /> % of 
+        <input type="number" className="calculator-input" value={input2} onChange={e => setInput2(e.target.value)} />?
         <div className="results" style={{color: 'blue'}}>{output1}</div>
       </div>
       <div className="form">
-        <input className="calculator-input" value={input3} onChange={e => setInput3(e.target.value)} /> is what percentage of 
-        <input className="calculator-input" value={input4} onChange={e => setInput4(e.target.value)} />?
+        <input type="number" className="calculator-input" value={input3} onChange={e => setInput3(e.target.value)} /> is what percentage of 
+        <input type="number" className="calculator-input" value={input4} onChange={e => setInput4(e.target.value)} />?
         <div className="results" style={{color: 'blue'}}>{output2}</div>
       </div>
       <div className="form">
         What is the percentage increase/decrease from 
-        <input className="calculator-input" value={input5} onChange={e => setInput5(e.target.value)} /> to 
-        <input className="calculator-input" value={input6} onChange={e => setInput6(e.target.value)} />?
+        <input type="number" className="calculator-input" value={input5} onChange={e => setInput5(e.target.value)} /> to 
+        <input type="number" className="calculator-input" value={input6} onChange={e => setInput6(e.target.value)} />?
         <div className="results" style={{color: 'blue'}}>{output3}</div>
       </div>
     </main>
-  );
+  );  
 }
 
 export default App;
